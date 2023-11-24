@@ -7,3 +7,7 @@ select next_day('2023-09-14','thursday') from dual;
 
 26. Print yesterday.
 SELECT CURRENT_DATE-1;
+
+27. Print next month.
+SELECT DATEADD(MONTH, 1, GETDATE()) AS NextMonth;
+SELECT DATEADD(MONTH, 1, CURRENT_DATE()) AS NextMonth;
