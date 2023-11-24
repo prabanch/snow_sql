@@ -11,3 +11,13 @@ SELECT CURRENT_DATE-1;
 27. Print next month.
 SELECT DATEADD(MONTH, 1, GETDATE()) AS NextMonth;
 SELECT DATEADD(MONTH, 1, CURRENT_DATE()) AS NextMonth;
+<<<<<<< Updated upstream
+=======
+ 
+ 28. Print previous month.
+SELECT DATEADD(MONTH, -1, CURRENT_DATE()) AS PreviousMonth;
+  
+  
+  hi
+  
+>>>>>>> Stashed changes
